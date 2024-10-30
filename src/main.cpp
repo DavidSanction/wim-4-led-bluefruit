@@ -60,7 +60,7 @@ void setup() {
   pinMode(LEDpin19, OUTPUT); 
   pinMode(button, INPUT);
   
-  BLEDevice::init("Wim's ESP32 UART"); // give the BLE device a name
+  BLEDevice::init("DMESP32"); // give the BLE device a name
   
   // Print the MAC address of the ESP32
   Serial.print("ESP32 MAC Address: ");
